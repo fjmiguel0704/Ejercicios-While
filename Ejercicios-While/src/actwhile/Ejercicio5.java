@@ -9,7 +9,7 @@ public class Ejercicio5 {
 		
 		Scanner read = new Scanner (System.in);
 
-		while(incremento<=9) {
+		while(incremento!=10) {
 			incremento++;
 			System.out.println("Introduce el siguiente número: ");
 			numero=read.nextInt();
